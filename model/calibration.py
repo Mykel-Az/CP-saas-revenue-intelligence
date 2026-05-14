@@ -7,7 +7,7 @@ from fastmcp.server.middleware import Middleware, MiddlewareContext
 from fastmcp.server.dependencies import get_http_headers
 from fastmcp.exceptions import ToolError
 from dotenv import load_dotenv
-
+  
 # ── Eager imports (fail at startup, not at first request) ─────────────────────
 from ctxprotocol import verify_context_request, ContextError
 
